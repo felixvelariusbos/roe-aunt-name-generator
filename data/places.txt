@@ -1,0 +1,131 @@
+Washington, D.C.
+Maryland
+New Jersey
+Hawaii
+Massachusetts
+Connecticut
+California
+New Hampshire
+Alaska
+Washington
+Virginia
+Colorado
+Utah
+Minnesota
+New York
+Illinois
+Delaware
+Rhode Island
+North Dakota
+Oregon
+Wyoming
+Pennsylvania
+Vermont
+Wisconsin
+Texas
+Iowa
+Nebraska
+Arizona
+Georgia
+Nevada
+Kansas
+Michigan
+South Dakota
+Ohio
+Indiana
+Maine
+Idaho
+Florida
+Montana
+Missouri
+North Carolina
+Tennessee
+South Carolina
+Oklahoma
+Kentucky
+Alabama
+Guam
+Louisiana
+New Mexico
+Arkansas
+Mississippi
+West Virginia
+Virgin Islands (U.S.)
+American Samoa
+Northern Mariana Islands
+Puerto Rico
+England
+Northern Ireland
+Scotland
+Wales
+Ontario
+Quebec
+Nova Scotia
+New Brunswick
+Manitoba
+British Columbia
+Prince Edward Island
+Saskatchewan
+Alberta
+Newfoundland and Labrador
+Northwest Territories
+Yukon
+Nunavut
+Aguascalientes
+Baja California
+Baja California Sur
+Campeche
+Chiapas
+Chihuahua
+Coahuila
+Colima
+Durango
+Federal District
+Guanajuato
+Guerrero
+Hidalgo
+Jalisco
+México
+Michoacán
+Morelos
+Nayarit
+Nuevo León
+Oaxaca
+Puebla
+Querétaro
+Quintana Roo
+San Luis Potosí
+Sinaloa
+Sonora
+Tabasco
+Tamaulipas
+Tlaxcala
+Veracruz
+Yucatán
+Zacatecas
+New South Wales
+Queensland
+South Australia
+Tasmania
+Victoria
+Western Australia
+Abruzzo
+Aosta Valley
+Apulia
+Basilicata
+Calabria
+Campania
+Emilia-Romagna
+Friuli Venezia Giulia
+Lazio
+Liguria
+Lombardy
+Marche
+Molise
+Piedmont
+Sardinia
+Sicily
+Trentino-South Tyrol
+Tuscany
+Umbria
+Veneto
