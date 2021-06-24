@@ -15,8 +15,11 @@ def home():
             first_letter = None
             
         result = aunt_namer.main(first_letter)
-            
+        #result = "here was your letter! %s" % first_letter   
     else:
         result = '-'
     
     return render_template('home.html', result = result)
+    
+if __name__ == "__main__":
+    app.run(debug=True)
