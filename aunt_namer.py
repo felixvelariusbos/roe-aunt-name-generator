@@ -1,4 +1,5 @@
 import random
+import sys
 
 def get_places():
     """
@@ -46,6 +47,12 @@ def get_animal(start_letter = None):
     animals = get_animals()
     
     # if start_letter was set...parse it down a smidge
+    if start_letter is not None:
+        better = []
+        for animal in animals:
+            if animal[0].lower() == start_letter.lower():
+                better.append(animal)
+        animals = better
     
     # grab a rando one.
     length = len(animals)
@@ -53,9 +60,29 @@ def get_animal(start_letter = None):
     return animals[idx]
     
 
-place = get_place()
-animal = get_animal()
-name = "%s %s-Eye" % (place, animal)
-print("Congrats, new roe aunt! Your name is %s" % name)
+if __name__ == "__main__":
+
+    if len(sys.argv) > 1:
+        first_letter = sys.argv[1]
+        
+        # if you tried to give me more letters nice try! 
+        # I'm a Computer Scientist (tm)
+        # and I "Know What I'm Doing" (tm) and "Occasionally Validate Things"(tm)
+        if len(first_letter) > 1:
+            first_letter = first_letter[0]
+        
+        try:
+            int(first_letter)
+            raise Exception("don't give me a number dangit!")
+        except:
+            # all good!
+            pass
+    else:
+        first_letter = None
+
+    place = get_place()
+    animal = get_animal(start_letter = first_letter)
+    name = "%s %s-Eye" % (place, animal)
+    print("Congrats, new roe aunt! Your name is %s" % name)
     
    
