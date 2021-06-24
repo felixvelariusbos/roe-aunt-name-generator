@@ -60,14 +60,13 @@ def get_animal(start_letter = None):
     return animals[idx]
     
 
-if __name__ == "__main__":
+def main(first_letter):
 
-    if len(sys.argv) > 1:
-        first_letter = sys.argv[1]
-        
-        # if you tried to give me more letters nice try! 
-        # I'm a Computer Scientist (tm)
-        # and I "Know What I'm Doing" (tm) and "Occasionally Validate Things"(tm)
+    # if you tried to give me more letters nice try! 
+    # I'm a Computer Scientist (tm)
+    # and I "Know What I'm Doing" (tm) and "Occasionally Validate Things"(tm)
+    
+    if first_letter is not None:
         if len(first_letter) > 1:
             first_letter = first_letter[0]
         
@@ -77,12 +76,21 @@ if __name__ == "__main__":
         except:
             # all good!
             pass
-    else:
-        first_letter = None
-
+        
+        
     place = get_place()
     animal = get_animal(start_letter = first_letter)
     name = "%s %s-Eye" % (place, animal)
+    return name
+    
+if __name__ == "__main__":
+
+    if len(sys.argv) > 1:
+        first_letter = sys.argv[1]
+    else:
+        first_letter = None
+
+    name = main(first_letter)
     print("Congrats, new roe aunt! Your name is %s" % name)
     
    
